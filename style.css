@@ -19,12 +19,26 @@ body {
 
 .sidebar h1 {
     font-size: 150%;
+    padding-top: 3px;
+}
+
+#logo {
+    height: 2.5rem;
 }
 
 .icon-text {
-    display: grid;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     height: 35px;
+}
+
+.icon-text a {
+    padding-top: 3px;
+}
+
+.icon-text img {
+    height: 1rem;
 }
 
 .main-container {
